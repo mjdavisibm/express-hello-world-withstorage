@@ -1,0 +1,27 @@
+{
+    "name": "express-hello-world-withstorage",
+    "version": "1.0.0",
+    "description": "Simple NodeJS Express app to ask name and welcome you back but store your request in a small local storage area",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mjdavisibm/express-hello-world-withstorage.git"
+    },
+    "keywords": [
+        "hello-world",
+        "local-storage"
+    ],
+    "author": "Matt Davis <mjdavi@us.ibm.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mjdavisibm/express-hello-world-withstorage/issues"
+    },
+    "homepage": "https://github.com/mjdavisibm/express-hello-world-withstorage#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
